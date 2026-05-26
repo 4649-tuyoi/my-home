@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>自己紹介-金子健司</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>俺の話を聞け</h1>
+    </header>
+
+    <main>
+        <section class="profile-info">
+            <h2>基本情報</h2>
+            <div class="profile-image">
+                <img src="image_2.jpg" alt="プロフィール画像" id="profileImg">
+            </div>
+            <div class="info-item">
+                <strong>名前：</strong>
+                <div>金子健司</div>
+            </div>
+            <div class="info-item">
+                <strong>年齢：</strong>
+                <div>23歳</div>
+            </div>
+            <div class="info-item">
+                <strong>出身：</strong>
+                <div>札幌市</div>
+            </div>
+        </section>
+
+        <section class="about-me">
+            <h2>自己紹介</h2>
+            <p>
+                教員目指して頑張っています。
+            </p>
+        </section>
+
+        <section class="hobbies">
+            <h2>趣味</h2>
+            <div class="hobby-list">
+                <div class="hobby-item">麻雀</div>
+                <div class="hobby-item">将棋</div>
+                <div class="hobby-item">ゲーム</div>
+            </div>
+            <div class="input-group">
+                <input type="text" id="newHobby" placeholder="追加したい趣味を入力">
+                <button id="addHobbyBtn" class="btn">追加</button>
+            </div>
+        </section>
+
+        <section class="input-group">
+            <button id="changeColorBtn" class="btn">背景色を変更</button>
+            <button id="showExtraInfoBtn" class="btn">追加情報を表示</button>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>最終更新：2026年5月27日</p>
+    </footer>
+
+    <section id="extraInfo" class="extra-info hidden">
+        <p>追加情報（ボタンで表示切替）</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
